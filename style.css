@@ -1,6 +1,6 @@
 /* styling for header section */
 .header{
-  font-family:Arial, Helvetica, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-weight: bold;
   border: 5px solid rgb(40, 48, 114);
@@ -20,7 +20,7 @@ a:hover {
 }
 
 p {
-  font-family:cursive;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    margin: 8px;
    color: black;
    text-align: center;
@@ -31,7 +31,7 @@ p {
 /* styling for footer section */
 #footer{
   background-color:aliceblue;
-  font-family:cursive;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-weight: bold;
   padding: 6px 12px;
@@ -67,7 +67,7 @@ height: 50%;
 }
 /* styling for intro section */
 #intro {
-font-family:cursive;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
 text-align: center;
 margin-left: 10px;
@@ -77,7 +77,7 @@ padding-bottom: 25px;
 }
 /* styling for headings */
 h1 {
-  font-family:cursive;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   font-weight: bold; 
    font-size: 70px;
@@ -87,7 +87,7 @@ h1 {
 h2 {
   margin-top: 10px;
   text-align: center;
-  font-family:cursive;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 40px;
  
   }
@@ -95,7 +95,7 @@ h2 {
 h3 {
  text-align: center;
  font-size: 28px;
- font-family:cursive;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* styling for nav bar section */
@@ -103,7 +103,7 @@ h3 {
   background-color:aliceblue;
   text-align: center;
   font-size: 18px;
-  font-family:cursive;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-bottom: 25px;
   border: 5px solid rgb(40, 48, 114);
 }
