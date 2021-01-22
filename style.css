@@ -3,11 +3,11 @@
   font-family:Arial, Helvetica, sans-serif;
   text-align: center;
   font-weight: bold;
-  padding: 40px 40px;
   border: 5px solid rgb(40, 48, 114);
   margin: 1px;
   background-color:aliceblue;
   padding-bottom: 50px;
+   line-height: 80px;
  }
 #responsive-image {  width: 100%;  height: 450px; } 
 /* unvisited link */
@@ -38,7 +38,7 @@ p {
   border: 5px solid rgb(40, 48, 114);
   margin: 1px;
   font-size: 20px;
-   line-height: 20px;
+   line-height: 40px;
    padding-bottom: 25px;
 }
 /* styling for aboutme id */
@@ -46,7 +46,7 @@ p {
      font-size: 20px;
      margin-left: 10px;
      margin-right: 10px;
-      line-height: 20px;
+      line-height: 40px;
       padding-bottom: 25px;
 }
 /* styling for main section */
@@ -73,6 +73,7 @@ text-align: center;
 margin-left: 10px;
 margin-right: 10px;
 padding-bottom: 25px;
+ line-height: 40px;
 }
 /* styling for headings */
 h1 {
@@ -99,11 +100,12 @@ h3 {
 
 /* styling for nav bar section */
 .navbar {
- 
+  background-color:aliceblue;
   text-align: center;
   font-size: 18px;
   font-family:cursive;
   padding-bottom: 25px;
+  border: 5px solid rgb(40, 48, 114);
 }
 /* styling for list section */
 ul {
@@ -111,9 +113,9 @@ ul {
  display: inline;
  text-align: center;
  list-style-type: none;
- line-height: 20px;
+ line-height: 40px;
 }
 ol {
   list-style-position: inside;
-  line-height: 20px;
+  line-height: 40px;
  }
