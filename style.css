@@ -1,0 +1,84 @@
+/* styling for header section */
+.header{
+  background-color:aliceblue;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: 5px solid rgb(40, 48, 114);
+  margin: 1px;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+}
+a:hover {
+  color: greenyellow;
+}
+
+  p {
+  font-family:cursive;
+   margin: 8px;
+   color: black;
+   text-align: center;
+   font-size: 12px;
+
+}
+/* styling for footer section */
+#footer{
+  background-color:aliceblue;
+  font-family:cursive;
+  text-align: center;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: 5px solid rgb(40, 48, 114);
+  margin: 1px;
+  font-size: 10px;
+}
+/* styling for main section */
+main {
+  background-color:aliceblue;
+  border: 5px solid rgb(40, 48, 114);
+}
+/* styling for image section */
+.image {
+border-radius: 50%;
+margin-top: 20px;
+margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 100%;
+}
+/* styling for intro section */
+#intro {
+    font-family:cursive;
+      font-size: 12px;
+       text-align: center;
+}
+
+.name {
+  font-family:cursive;
+  text-align: center;
+  font-weight: bold; 
+   font-size: 22px;
+}
+/* styling for nav bar section */
+.navbar{
+  text-align: center;
+   font-size: 10px;
+     font-family:cursive;
+}
+/* styling for list section */
+li {
+ display: inline;
+ text-align: center;
+}
+
+h3 {
+ text-align: center;
+   font-size: 12px;
+     font-family:cursive;
+}
