@@ -37,6 +37,11 @@ a:hover {
   margin: 1px;
   font-size: 16px;
 }
+#aboutme{
+     font-size: 18px;
+     margin-left: 10px;
+     margin-right: 10px;
+}
 /* styling for main section */
 main {
   background-color:aliceblue;
@@ -58,6 +63,8 @@ height: 50%;
     font-family:cursive;
       font-size: 16px;
        text-align: center;
+         margin-left: 10px;
+         margin-right: 10px;
 }
 
 h1 {
@@ -66,18 +73,29 @@ h1 {
   font-weight: bold; 
    font-size: 60px;
   color: rgb(7, 50, 241);
-  margin-bottom: 0px;
+  margin-bottom: 10px;
    }
-h2{
-  margin-top: 0px;
+h2 {
+  margin-top: 10px;
    text-align: center;
     font-family:cursive;
      font-size: 35px;
   }
+
+h3 {
+ text-align: center;
+   font-size: 28px;
+     font-family:cursive;
+}
+h5 {
+ text-align: center;
+   font-size: 18px;
+} 
 /* styling for nav bar section */
-.navbar{
+.navbar {
+ 
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family:cursive;
 }
 /* styling for list section */
@@ -91,13 +109,3 @@ ol {
  /*display: inline;*/
  /*text-align: center;*/
 }
-
-h3 {
- text-align: center;
-   font-size: 18px;
-     font-family:cursive;
-}
-h5 {
- text-align: center;
-   font-size: 18px;
-} 
