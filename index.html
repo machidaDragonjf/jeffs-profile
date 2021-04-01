@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" ,initial-scale=1 >
     <title>Jeff's Web Development </title>
     <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
@@ -11,29 +11,31 @@
    
       <div class="header">
     <header>
-     <img src="images/city1.jpg" alt="city image" id="responsive-image"> 
      
-      <h1> Jeff Forcari </h1>
+      <div class="logo">Jeff Forcari</div>
       
-      <h2>A Web Developer</h2>
+      <nav>
+        <div class="nav">
+            <ul id ="navBar">
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#aboutme">AboutMe</a></li>
+          <li><a href="#footer">ContactMe</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+           </ul>
+         </div>
        <!-- Navigation Bar -->
     </header>
-      </div>
-      <div class="navbar">
-    <ul>
-     <li> <p><strong> Navigation Menu</strong></p></li>
-  <li><a href="#intro">Intro</a></li>
-  <li><a href="#aboutme">AboutMe</a></li>
-  <li><a href="#footer">ContactMe</a></li>
-  </ul>
- </div>
+ 
     
        <!-- intro section referred to as id intro -->
 <main>
-<img src="images/profile1.jpg" alt="profile image" class="image">
+    
+      
+    <h2>A Web Developer</h2>
+<img src="images/profile1.jpg" alt="profile image"  id="responsive-image">
 <article>
 <div id="intro">
-  <h3> Intro </h3>
+  <h2> Intro </h2>
 <p>  Hello, My name is Jeff Forcari and I'm a web developer from San Francisco, California.  My interests include: </p>
 
   <ol>
@@ -49,24 +51,79 @@
 <article>
  <!--About me section refered to as id aboutme -->
 <div id="aboutme">
-  <h3> About Me </h3>
+  <h2> About Me </h2>
 <p>  After graduating from Northridge University with a bachelors in Information Technology, I decided to pursue my education in web development at Thinkful. Here I have been able to polish my web development skills and improve my toolset. For me, web development is an art that allows creativity to be combined with the technical skills needed to deliver an exceptional artistic creation. I enjoy collaboration with other developers and truely believe I can contribute much to a larger shared goal of a web development team.In my spare time I enjoy playing acoustic and electric guitar and have been a performing musician for the last 10 years. As a songwriter I have learned the importance of being a part of a cohesive team and working toward a common goal.   If your looking for a developer with real passion for creation don't be afraid to contact me. I'm so excited to work with you in the future and plan to exceed your expectations of how good your website can really be.  
   </p>
 </div>
 </article>
+<hr>
+<section>
+    <!--About me section refered to as id aboutme -->
+    <div id="portfolio">
+    <h2> My Portfolio </h2>
+     <div class="group">
+         <div class="item">
+     <img src="images/decoder.jpg" alt="ring" width="280" height="280"  >
+     </div>
+     <div class = "item">
+     <h3>Decoder Ring</h3>
+     <p>The decoder ring project is a project that 
+         demonstrates the ability to code a cipher in 
+         three different formats.The Phoebius Cipher,
+        the Caeser Cipher and a substitution cipher. It 
+        skills require good command of the javascript language. 
+        We built this program for Thinkful to showcase our new javascript skills. 
+        <a href="https://github.com/machidaDragonjf/ProjectDecoderRing">Click here to see the project coding</a>
+     </p>
+     </div>
+         <div class="item">
+     <img src="images/library.jpg" alt="library"width="280" height="280" id="pic2"> 
+        </div>
+        <div class ="item">
+     <h3>Local Libraries</h3>
+     <p>The local libraries is a project that involves retrieving Information
+         from a book database, that requires matching authors with books and other values.
+         Skills necessary for this include strong javascript skills. We built this
+         program to showcase are ability to use arrays methods to retrieve information. 
+         <a href="https://github.com/machidaDragonjf/projectCode/tree/main/Project_Local_Library_1">Click here to see the project coding</a>
+     </p>
+     </div>
+   </div>
+   </div>
+</section>
   </main>
    <!-- footer section referred to as footer id -->
    <hr>
-   <footer>
+ <footer>
   <div id="footer">
  
-   <h3> Contact Jeff Forcari</h3>
+   <h2> Contact Me </h2>
+   <h3>buffstralia@gmail.com</h3>
  <p><a href="https://www.linkedin.com/in/jeff-forcari-a56aa813b">Linkden</a></p>
 <p><a href="https://machidadragonjf.github.io/jeffs-profile/">Github</a></p>
- <p><a href="mailto:buffstralia@gmail.com">Drop me a line</a></p>
-</div>
 
-  </footer>
+<div class="label">
+<form
+  action="https://formspree.io/f/xlearygg"
+  method="POST"
+>
+  <label>
+      <h4>Or just send me a message and lets chat</h4>
+    Your email:
+    <input type="email" autofocus="on"  name="buffstralia@gmail.com">
+  </label>
+  <label>
+    Message:
+    <textarea id="form-message"  name="message">Type your message here></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
+</div>
+</div>
+</footer>
   
  
  <script src="script.js"></script>
