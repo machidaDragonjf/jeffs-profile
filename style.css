@@ -1,4 +1,8 @@
 
+
+
+
+
 .logo {
   font-family:fantasy;
   font-size: 72px;
@@ -47,6 +51,8 @@ header nav ul li a {
   justify-content: space-evenly;
   flex-direction: column; /* or column */
 }
+
+
 .item {
  flex: 1;
  margin: 5px;
@@ -116,7 +122,12 @@ p {
   margin-right: 10px;
   line-height: 40px;
   padding-bottom: 25px;
- 
+ text-align: center; 
+}
+
+.myskills {
+  text-align: center;
+  list-style-type: none;
 }
 
 
@@ -177,10 +188,10 @@ h3 {
 }
 
 main img {
-  width: 100%;
+  width: 50%;
   border-radius: 8px;
-  height: 400px;
-  width: 200;
+  height: auto;
+  
 }
 
 
@@ -191,7 +202,12 @@ main img {
   .group {
         flex-direction: row;
   }
-   
+  main img {
+    width: 100%;
+    border-radius: 8px;
+    height: 400px;
+    width: 200;
+  } 
 
  header {
    display: flex;
